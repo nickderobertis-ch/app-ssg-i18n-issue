@@ -1,4 +1,4 @@
-export function generateStaticParams() {
+export async function generateStaticParams() {
   return ["en", "es"].map((lang) => ({ lang }));
 }
 
